@@ -1,0 +1,19 @@
+{
+    "countriesList": [{
+            "country": "thai",
+            "isSelected": true
+        },
+        {
+            "country": "russia",
+            "isSelected": true
+        },
+        {
+            "country": "japan",
+            "isSelected": false
+        },
+        {
+            "country": "korea",
+            "isSelected": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+<ion-header>
+    <custom-header title="Options"></custom-header>
+    <ion-searchbar animated="true" showCancelButton="true" (ionInput)="onInput($event)" (ionCancel)="onCancel($event)">
+    </ion-searchbar>
+</ion-header>
+<ion-content padding>
+    <ion-item *ngFor="let c of countries">
+        <ion-checkbox item-start [checked]="c.isSelected" (ionChange)="onPrepareSaveData($event,c)"></ion-checkbox>
+        <p item-content> {{ c.country }} </p>
+    </ion-item>
+</ion-content>
